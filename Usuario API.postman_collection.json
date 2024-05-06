@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "2a63282a-f790-42d5-995a-6f607f229631",
+		"name": "Usuario API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24664458"
+	},
+	"item": [
+		{
+			"name": "Registrar Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nombre\": \"Juan\",\n    \"apellido\": \"Pérez\",\n    \"fechaDeNacimiento\": \"1985-07-15\",\n    \"direcciones\": [\n        {\n            \"pais\": \"Argentina\",\n            \"calle\": \"Av. Libertador\",\n            \"numero\": 1234,\n            \"localidad\": \"Buenos Aires\",\n            \"provincia\": \"Buenos Aires\"\n        },\n        {\n            \"pais\": \"Argentina\",\n            \"calle\": \"Calle Falsa\",\n            \"numero\": 456,\n            \"localidad\": \"Springfield\",\n            \"provincia\": \"Springfield\"\n        }\n    ],\n    \"direccionPrincipal\": {\n        \"pais\": \"Argentina\",\n        \"calle\": \"Av. Rivadavia\",\n        \"numero\": 789,\n        \"localidad\": \"Caba\",\n        \"provincia\": \"Buenos Aires\"\n    }\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/usuario/registrar"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/usuario/usuarios"
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar Usuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 1,\n\t\"nombre\": \"NuevoNombre\",\n\t\"apellido\": \"NuevoApellido\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{url}}/usuario/modificar"
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Usuario por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{url}}/usuario/buscar/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar Dirección a Usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"pais\": \"Argentina\",\n        \"calle\": \"Av. Rivadavia\",\n        \"numero\": 789,\n        \"localidad\": \"Caba\",\n        \"provincia\": \"Buenos Aires\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/usuario/1/direcciones"
+			},
+			"response": []
+		},
+		{
+			"name": "Seleccionar Dirección Principal",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/usuario/1/direcciones/principal/2"
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Dirección de Usuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"pais\": \"Argentina\",\n    \"calle\": \"Av. Rivadavia\",\n    \"numero\": 789,\n    \"localidad\": \"Caba\",\n    \"provincia\": \"Buenos Aires\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/usuario/1/direcciones/1"
+			},
+			"response": []
+		}
+	]
+}

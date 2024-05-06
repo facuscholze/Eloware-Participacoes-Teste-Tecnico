@@ -1,0 +1,72 @@
+💛 Teste 01 :
+
+1 - Considere que você é o desenvolvedor responsável por uma nova funcionalidade para um sistema de e-commerce.
+ A data inicial que você havia previsto está próxima e você nota que está atrasado para a entrega e ainda há testes na aplicação pendentes de correção após suas alterações.
+ Seu líder na daily lhe cobra um posicionamento acerca do item. O que você faria nesse cenário e qual seria sua resposta?
+
+R:
+
+inicialmente, eu comunicaria imediatamente ao líder sobre o atraso e os testes pendentes,
+ sendo transparente sobre os motivos do atraso e as etapas que ainda precisam ser concluídas.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2 - Considere que você está trabalhando há dias em uma implementação complexa,
+ e pelo estágio da implementação o prazo acordado será cumprido, mas seu líder
+ imediato solicita que você atue em uma implementação emergencial,
+ que não havia sido identificada na etapa de levantamentos,
+ e deve ser entregue no dia seguinte. Quais seriam suas considerações e encaminhamento nesse cenário?
+
+R:
+
+ buscaria compreender a urgência da demanda, 
+ para então negociar prazos e recursos que
+ permitissem lidar eficazmente com ambas as tarefas.
+ Por fim, manteria controle da situação, ajustando o plano conforme necessário
+ para garantir o cumprimento dos objetivos estabelecidos.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3 - Considere que você acabou de concluir e liberar uma nova funcionalidade para produção, 
+em pouco tempo os usuários começam a reportar problemas na mesma e você é acionado para avaliar e resolver o problema.
+ Na sua opinião, quais seriam as ações a serem realizadas do momento em que o problema chegou ao seu conhecimento até a correção dele?
+
+R:
+
+Ao receber relatos de problemas na nova funcionalidade,
+ eu imediatamente investigaria suas causas, priorizando as correções com base na gravidade.
+ Desenvolveria e testaria soluções, comunicando transparentemente os progressos aos usuários.
+ Após a implementação das correções, monitoraria de perto o sistema para garantir a resolução completa dos problemas
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4 - Considere que você está trabalhando em uma implementação complexa, 
+e estratégica para viabilizar uma entrega contratual, cujo prazo não pode ser repactuado, 
+e durante a implementação atrasos ocorreram por conta de itens que não estavam claros na especificação, levando você a estimar um atraso de um dia na entrega prevista
+. Quais seriam suas considerações e encaminhamento nesse cenário?
+
+R:
+
+Comunicar imediatamente as partes interessadas sobre os atrasos e suas causas depois
+identificar e resolver rapidamente os pontos de confusão na especificação,
+avaliar o impacto do atraso na entrega contratual,
+manter comunicação transparente e regular com todas as partes interessadas.
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+💛 Teste 02:
+
+  Tema: A Importância da Colaboração no Desenvolvimento de Software
+
+  A colaboração é essencial no desenvolvimento de software, permitindo que membros da equipe combinem habilidades e conhecimentos para resolver problemas eficazmente.
+    Isso resulta em soluções mais robustas e eficientes. Além disso, promove um ambiente de trabalho positivo, estimulando a criatividade e o pensamento crítico.
+    No desenvolvimento ágil, a colaboração é ainda mais crucial, promovendo comunicação constante e adaptação rápida a mudanças.
+    Isso minimiza riscos e garante a qualidade do produto final.
+    Investir em colaboração dentro das equipes é essencial para alcançar resultados excepcionais e atender às demandas do mercado de tecnologia.
+    A troca de ideias e a colaboração ativa estimulam a inovação, aumentando a produtividade e a satisfação no trabalho.
+    Os membros da equipe se sentem valorizados e apoiados, contribuindo para o engajamento e motivação.
+    Em suma, a colaboração impulsiona o sucesso dos projetos de software e é fundamental para o progresso da indústria tecnológica.
